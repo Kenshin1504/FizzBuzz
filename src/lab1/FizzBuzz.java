@@ -5,13 +5,13 @@ package lab1;
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
 
-        doFizzBuzz();
+        int i = 0;
+        doFizzBuzz(i);
     }
 
-    private static void doFizzBuzz() {
-        int i = 1;  // declare i first
+    public static void doFizzBuzz(int i) {
 
         while (i <= 100) {  // go up to 100 inclusive
             boolean divisibleBy3 = i % 3 == 0;
