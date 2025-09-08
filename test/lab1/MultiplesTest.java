@@ -1,6 +1,8 @@
 package lab1;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 /*
   Some test cases for lab1.Multiples.
