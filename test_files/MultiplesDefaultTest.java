@@ -14,7 +14,7 @@ public class MultiplesDefaultTest {
     public void testDefault() {
         assertEquals(466,
                 Multiples.multiples(),
-                "Multiples.multiples() is incorrect for default values");
+                "lab1.Multiples.multiples() is incorrect for default values");
     }
 
 }

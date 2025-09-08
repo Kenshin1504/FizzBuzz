@@ -343,14 +343,14 @@ practice these kinds of problems regularly over the academic year to gain confid
 As part of this week's lab, you'll solve one of them, and submit your code
 on MarkUs to get practice with running the self tests on MarkUs.
 
-## Task 4: Multiples of 3 and 5
+## Task 4: lab1.Multiples of 3 and 5
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Multiples`.
+- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `lab1.Multiples`.
 
 We're looking for integers greater than 0 that are multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
 
-- [ ] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
+- [ ] In `lab1.Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
 Add this file to your project, commit, and push. Check your repo on GitHub to confirm your changes were pushed successfully.
 
 > Tip: Just like with `psvm`, you can start typing `sout`
@@ -359,13 +359,13 @@ Add this file to your project, commit, and push. Check your repo on GitHub to co
 If you don't get the right answer immediately, that's okay! Discuss with your team to ensure everyone
 is happy with their own code for this.
 
-### Task 4.1: Testing Multiples
+### Task 4.1: Testing lab1.Multiples
 
 Now, let's modify your code so that it is easy to test.
 
-- [ ] Extract a method from `Multiples.main` that will return
-  the answer, call it `multiples`. The answer should still be printed in your `Multiples.main` method.
-  After you do this, your `Multiples.main` method should look something like:
+- [ ] Extract a method from `lab1.Multiples.main` that will return
+  the answer, call it `multiples`. The answer should still be printed in your `lab1.Multiples.main` method.
+  After you do this, your `lab1.Multiples.main` method should look something like:
 
 ```java
 int count = multiples();
@@ -407,7 +407,7 @@ in this file. You can then click that to conveniently rerun the tests.
 
 - [ ] Make sure the tests all pass in the file.
 
-- [ ] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
+- [ ] If you didn't yet, also `add`, `commit`, and `push` this `lab1.Multiples.java` file to save your work
   and upload it to your GitHub repo.
 
 Once the tests are passing and your work is on GitHub, you are ready to submit your code to MarkUs!
@@ -450,7 +450,7 @@ parameters does for us:
 
 ```python
 def multiples(n: int = 1000, a: int = 3, b: int = 5) -> int:
-    # logic of the Multiples problem
+    # logic of the lab1.Multiples problem
 ```
 
 > As you learn more programming languages, it can be interesting to observe how they often
@@ -459,7 +459,7 @@ def multiples(n: int = 1000, a: int = 3, b: int = 5) -> int:
 Once you complete these steps, you can copy the `MultiplesDefaultTest.java` file into the `test/lab1` directory
 and run the tests in it to check your work — debugging as needed.
 
-- [ ] Use git to push your updated `Multiples.java` file to GitHub and run the self tests again on MarkUs.
+- [ ] Use git to push your updated `lab1.Multiples.java` file to GitHub and run the self tests again on MarkUs.
 
 > Since MarkUs already has your GitHub URL, you don't need to "resubmit" that; you can just rerun the self
 > tests on MarkUs, and it will clone a copy of your most recent code from GitHub. Neat!
@@ -517,7 +517,7 @@ this later, as well as other features of git which can help you avoid conflicts.
 
 ## Bonus: Reduce a number to 0
 
-Here is one more small coding problem similar to the Multiples problem for extra practice.
+Here is one more small coding problem similar to the lab1.Multiples problem for extra practice.
 
 - [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Reduce`.
 
@@ -530,7 +530,7 @@ For example, if you start with n = 2, the answer is 2.
 - [ ] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
   Add this file to your project, commit, and push.
 
-- [ ] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
+- [ ] Similar to what you did for `lab1.Multiples.java`, modify the code so that you can easily test it by extracting
 a helper method called `reduce`. Then generalize that helper to take in `n` as a parameter.
 
 Once you complete these steps, you can copy the `ReduceTest.java` file into the `test/lab1` directory
@@ -550,7 +550,7 @@ This term, you might find it interesting to try solving some problems first in P
 
 ## Extra to think about
 
-What is the runtime of your solution for the Multiples problem, in terms of `n`?
+What is the runtime of your solution for the lab1.Multiples problem, in terms of `n`?
 We aren't testing your code for efficiency in this assignment, but if your solution is linear in `n`, then
 we encourage you to think about how it could be made more efficient. This is good practice for
 these kinds of technical interview questions!
